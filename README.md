@@ -1,7 +1,7 @@
 # iosProject
 2022移動應用創新賽
 
-## Before you start
+## If missing package or missing googleservie-info.plist Do this
 
 Add this to the package
 
