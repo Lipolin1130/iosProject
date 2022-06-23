@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-
 struct Map: View {
+    
     var body: some View {
-       Text("Map View")
+        Text("Map view")
     }
 }
 

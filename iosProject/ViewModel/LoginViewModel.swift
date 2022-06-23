@@ -90,6 +90,5 @@ class LoginViewModel: ObservableObject {
                 self.logStatus = true
             }
         })
-       
     }
 }

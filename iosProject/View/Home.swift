@@ -26,23 +26,23 @@ struct Home: View {
 //            }
 //        }
         TabView{
-            Map().tabItem {
-                NavigationLink(destination: Map()) {
+            MapView().tabItem {
+                NavigationLink(destination: MapView()) {
                     Image(systemName: "car")
                     Text("Trips") }
             }
-            Map().tabItem {
-                NavigationLink(destination: Map()) {
+            MapView().tabItem {
+                NavigationLink(destination: MapView()) {
                     Image(systemName: "car")
                     Text("Trips") }
             }
-            Map().tabItem {
-                NavigationLink(destination: Map()) {
+            MapView().tabItem {
+                NavigationLink(destination: MapView()) {
                     Image(systemName: "map.fill")
                     Text("Map") }
             }
-            Map().tabItem {
-                NavigationLink(destination: Map()) {
+            MapView().tabItem {
+                NavigationLink(destination: MapView()) {
                     Image(systemName: "car")
                     Text("Trips") }
             }

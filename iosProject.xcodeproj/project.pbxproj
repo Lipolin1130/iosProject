@@ -15,13 +15,14 @@
 		D06A5383284F19B6007A17D0 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5382284F19B6007A17D0 /* LoginPage.swift */; };
 		D06A5388284F1A45007A17D0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5387284F1A45007A17D0 /* LoginViewModel.swift */; };
 		D06A538A284F1FBE007A17D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5389284F1FBE007A17D0 /* Home.swift */; };
-		D090AFA22863462900A4233F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D090AFA12863462900A4233F /* GoogleService-Info.plist */; };
 		D090AFA628634CE700A4233F /* PersonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFA528634CE700A4233F /* PersonDetail.swift */; };
-		D090AFA828634D9800A4233F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFA728634D9800A4233F /* Map.swift */; };
 		D090AFAC2863672600A4233F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D090AFAB2863672600A4233F /* GoogleSignIn */; };
 		D090AFAF2864384600A4233F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = D090AFAE2864384600A4233F /* FacebookLogin */; };
 		D090AFB228646C7000A4233F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB128646C6F00A4233F /* MapViewModel.swift */; };
 		D090AFB42864A61A00A4233F /* PersonDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB32864A61A00A4233F /* PersonDetailModel.swift */; };
+		D090AFB62864AF3700A4233F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB52864AF3700A4233F /* Location.swift */; };
+		D090AFB82864B12A00A4233F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB72864B12A00A4233F /* MapView.swift */; };
+		D090AFBE2864BDE900A4233F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D090AFBD2864BDE900A4233F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +34,13 @@
 		D06A5382284F19B6007A17D0 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		D06A5387284F1A45007A17D0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D06A5389284F1FBE007A17D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		D090AFA12863462900A4233F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D090AFA528634CE700A4233F /* PersonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetail.swift; sourceTree = "<group>"; };
-		D090AFA728634D9800A4233F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		D090AFB02864498800A4233F /* iosProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iosProject.entitlements; sourceTree = "<group>"; };
 		D090AFB128646C6F00A4233F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		D090AFB32864A61A00A4233F /* PersonDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailModel.swift; sourceTree = "<group>"; };
+		D090AFB52864AF3700A4233F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D090AFB72864B12A00A4233F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D090AFBD2864BDE900A4233F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,7 @@
 				D06A536D284CE3F2007A17D0 /* iosProjectApp.swift */,
 				D06A536F284CE3F2007A17D0 /* ContentView.swift */,
 				D06A5371284CE3F7007A17D0 /* Assets.xcassets */,
-				D090AFA12863462900A4233F /* GoogleService-Info.plist */,
+				D090AFBD2864BDE900A4233F /* GoogleService-Info.plist */,
 				D06A5373284CE3F7007A17D0 /* Preview Content */,
 			);
 			path = iosProject;
@@ -100,7 +102,7 @@
 				D06A5389284F1FBE007A17D0 /* Home.swift */,
 				D06A5382284F19B6007A17D0 /* LoginPage.swift */,
 				D090AFA528634CE700A4233F /* PersonDetail.swift */,
-				D090AFA728634D9800A4233F /* Map.swift */,
+				D090AFB72864B12A00A4233F /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +113,7 @@
 				D06A5387284F1A45007A17D0 /* LoginViewModel.swift */,
 				D090AFB128646C6F00A4233F /* MapViewModel.swift */,
 				D090AFB32864A61A00A4233F /* PersonDetailModel.swift */,
+				D090AFB52864AF3700A4233F /* Location.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,9 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D090AFBE2864BDE900A4233F /* GoogleService-Info.plist in Resources */,
 				D06A5375284CE3F7007A17D0 /* Preview Assets.xcassets in Resources */,
 				D06A5372284CE3F7007A17D0 /* Assets.xcassets in Resources */,
-				D090AFA22863462900A4233F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,11 +201,12 @@
 			files = (
 				D06A5388284F1A45007A17D0 /* LoginViewModel.swift in Sources */,
 				D06A5370284CE3F2007A17D0 /* ContentView.swift in Sources */,
+				D090AFB62864AF3700A4233F /* Location.swift in Sources */,
 				D090AFA628634CE700A4233F /* PersonDetail.swift in Sources */,
-				D090AFA828634D9800A4233F /* Map.swift in Sources */,
 				D06A538A284F1FBE007A17D0 /* Home.swift in Sources */,
 				D06A5383284F19B6007A17D0 /* LoginPage.swift in Sources */,
 				D06A536E284CE3F2007A17D0 /* iosProjectApp.swift in Sources */,
+				D090AFB82864B12A00A4233F /* MapView.swift in Sources */,
 				D090AFB228646C7000A4233F /* MapViewModel.swift in Sources */,
 				D090AFB42864A61A00A4233F /* PersonDetailModel.swift in Sources */,
 			);
