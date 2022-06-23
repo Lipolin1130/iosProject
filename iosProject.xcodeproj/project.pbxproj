@@ -20,6 +20,8 @@
 		D090AFA828634D9800A4233F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFA728634D9800A4233F /* Map.swift */; };
 		D090AFAC2863672600A4233F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D090AFAB2863672600A4233F /* GoogleSignIn */; };
 		D090AFAF2864384600A4233F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = D090AFAE2864384600A4233F /* FacebookLogin */; };
+		D090AFB228646C7000A4233F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB128646C6F00A4233F /* MapViewModel.swift */; };
+		D090AFB42864A61A00A4233F /* PersonDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090AFB32864A61A00A4233F /* PersonDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		D090AFA528634CE700A4233F /* PersonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetail.swift; sourceTree = "<group>"; };
 		D090AFA728634D9800A4233F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		D090AFB02864498800A4233F /* iosProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iosProject.entitlements; sourceTree = "<group>"; };
+		D090AFB128646C6F00A4233F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		D090AFB32864A61A00A4233F /* PersonDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				D06A5387284F1A45007A17D0 /* LoginViewModel.swift */,
+				D090AFB128646C6F00A4233F /* MapViewModel.swift */,
+				D090AFB32864A61A00A4233F /* PersonDetailModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 				D06A538A284F1FBE007A17D0 /* Home.swift in Sources */,
 				D06A5383284F19B6007A17D0 /* LoginPage.swift in Sources */,
 				D06A536E284CE3F2007A17D0 /* iosProjectApp.swift in Sources */,
+				D090AFB228646C7000A4233F /* MapViewModel.swift in Sources */,
+				D090AFB42864A61A00A4233F /* PersonDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

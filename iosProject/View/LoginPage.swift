@@ -88,7 +88,14 @@ struct LoginPage: View {
             .disabled(loginModel.email == "" || loginModel.password == "")
             .opacity(loginModel.email == "" || loginModel.password == "" ? 0.5 : 1)
             HStack{
+                
+                VStack{
+                    Divider()
+                }
                 Text("Or")
+                VStack{
+                    Divider()
+                }
             }
             HStack(spacing: 50){
                 
